@@ -83,6 +83,16 @@
             bindings = <&kp AT>;
             key-positions = <7 8>;
         };
+
+        left_click {
+            bindings = <&mkp MB1>;
+            key-positions = <19 20>;
+        };
+
+        right_click {
+            bindings = <&mkp MB2>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
@@ -127,10 +137,19 @@
 &kp Q             &kp W         &kp E         &kp R                      &kp T                                                          &kp Y             &kp U        &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &mt F LCTRL                &kp G               &kp LS(LG(S))               &kp MINUS      &kp H             &mt RCTRL J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B               &kp COLON                   &kp SEMICOLON  &kp N             &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LEFT_ALT  &lt 1 INT_MUHENKAN  &lt_to_layer_0 3 SPACE      &lt 2 ENTER    &lt 1 INT_HENKAN                                   &kp BACKSPACE
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LEFT_ALT  &lt 2 INT_MUHENKAN  &lt_to_layer_0 1 SPACE      &lt 3 ENTER    &lt 1 INT_HENKAN                                   &kp BACKSPACE
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
+        };
+
+        ARROW {
+            bindings = <
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp HOME  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN  &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp END   &kp LEFT     &kp DOWN_ARROW  &kp RIGHT      &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans    &trans       &trans          &trans         &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                &trans
+            >;
         };
 
         FUNCTION {
@@ -138,7 +157,7 @@
 &trans  &trans  &trans  &trans  &trans                        &kp N7  &kp N8  &kp N9  &kp N9  &kp F5
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &trans      &kp F13  &kp N4  &kp N5  &kp N6  &kp N6  &kp F10
 &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans      &trans   &kp N1  &kp N2  &kp N3  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans   &trans      &trans   &kp N0                          &kp F12
+&trans  &trans  &trans  &trans  &trans   &trans      &trans   &kp N0                          &kp DELETE
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -150,15 +169,6 @@
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
-            >;
-        };
-
-        ARROW {
-            bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
         };
 
