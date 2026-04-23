@@ -87,7 +87,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   FUNC_NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -262,7 +262,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bl BL_OFF'
   - {t: ▽, type: trans}
   '6':
   - {t: ▽, type: trans}
@@ -305,7 +305,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&bl BL_ON'
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
