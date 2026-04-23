@@ -38,7 +38,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INT_MUHENKAN', h: '6'}
+  - {t: INT MUHENKAN, h: LEFT ALT}
   - {t: SPACE, h: FUNC_NUM}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
   - {t: BACKSPACE, h: NUM}
@@ -66,7 +66,7 @@ layers:
   - LEFT
   - DOWN ARROW
   - RIGHT
-  - {t: ▽, type: trans}
+  - '~'
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
@@ -76,8 +76,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,7 +105,7 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - F13
+  - F12
   - '4'
   - '5'
   - '6'
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
