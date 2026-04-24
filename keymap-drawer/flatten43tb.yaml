@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: flatten43tb}
 layers:
   default:
-  - Q
+  - {t: Q, h: '6'}
   - W
   - E
   - R
@@ -16,8 +16,8 @@ layers:
   - D
   - {t: LCTRL, h: F}
   - G
-  - Sft+Gui+S
-  - '-'
+  - ''
+  - ':'
   - H
   - {t: J, h: RCTRL}
   - {t: K, h: SCROLL}
@@ -265,7 +265,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
