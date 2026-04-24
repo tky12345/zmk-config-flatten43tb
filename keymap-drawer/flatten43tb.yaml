@@ -14,7 +14,7 @@ layers:
   - A
   - S
   - D
-  - {t: LCTRL, h: F}
+  - {t: F, h: LCTRL}
   - G
   - ''
   - ':'
