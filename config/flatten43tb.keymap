@@ -125,7 +125,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_ALT INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 1 INT_HENKAN      &lt 3 BACKSPACE  &lt 1 ENTER                                   &kp BACKSPACE
             >;
 
-            sensor-bindings = <&sensor_rotate_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&sensor_rotate_kp C_VOL_UP C_VOL_DN>;
         };
 
         ARROW {
