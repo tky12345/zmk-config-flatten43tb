@@ -22,7 +22,7 @@ layers:
   - {t: J, h: RCTRL}
   - {t: K, h: SCROLL}
   - L
-  - '-'
+  - {t: '-', h: MOUSE}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -63,7 +63,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - END
-  - LEFT
+  - {t: LEFT, h: RCTRL}
   - DOWN ARROW
   - RIGHT
   - '~'
@@ -198,7 +198,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
