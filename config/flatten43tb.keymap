@@ -127,7 +127,7 @@
         default_layer {
             bindings = <
 &lt 6 Q           &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U        &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &mt LCTRL F                &kp G        &none                            &kp COLON        &kp H        &mt RCTRL J  &lt 5 K    &kp L    &kp MINUS
+&kp A             &kp S         &kp D         &mt LCTRL F                &kp G        &none                            &kp COLON        &kp H        &mt RCTRL J  &lt 5 K    &kp L    &lt 4 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &kp LG(LA(K))                    &kp SEMICOLON    &kp N        &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_ALT INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 1 INT_HENKAN      &lt 3 BACKSPACE  &lt 1 ENTER                                   &kp BACKSPACE
             >;
@@ -137,10 +137,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans                      &kp HOME  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN     &trans
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &kp END   &kp LEFT     &kp DOWN_ARROW  &kp RIGHT         &kp TILDE
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans       &kp AT_SIGN     &kp LEFT_BRACKET  &trans
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &trans
+&kp ESCAPE  &trans  &trans  &trans  &trans                      &kp HOME  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN     &trans
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &kp END   &mt RCTRL LEFT  &kp DOWN_ARROW  &kp RIGHT         &kp TILDE
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans          &kp AT_SIGN     &kp LEFT_BRACKET  &trans
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
