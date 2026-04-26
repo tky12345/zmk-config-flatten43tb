@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - Gui+Alt+K
+  - {t: Gui+Alt+K, h: MOUSE}
   - ;
   - N
   - M
@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUNC_NUM:
-  - {t: ▽, type: trans}
+  - ESC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
