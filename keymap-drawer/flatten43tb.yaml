@@ -90,8 +90,8 @@ layers:
   - DELETE
   FUNC_NUM:
   - ESC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+TAB
+  - Alt+Sft+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - +
