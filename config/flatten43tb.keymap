@@ -148,10 +148,10 @@
 
         FUNC_NUM {
             bindings = <
-&kp ESC            &trans  &trans  &trans        &trans                              &kp PLUS   &kp N7  &kp N8  &kp N9  &kp MINUS
-&kp F1             &kp F2  &kp F3  &mt LCTRL F4  &kp F5   &trans            &kp F12  &kp ASTRK  &kp N4  &kp N5  &kp N6  &kp FSLH
-&mt LEFT_SHIFT F6  &kp F7  &kp F8  &kp F9        &kp F10  &kp LEFT_WIN      &trans   &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp DOT
-&trans             &trans  &trans  &trans        &trans   &trans            &trans   &kp N0                             &kp DELETE
+&kp ESC            &kp LA(TAB)  &kp LA(LS(TAB))  &trans        &trans                              &kp PLUS   &kp N7  &kp N8  &kp N9  &kp MINUS
+&kp F1             &kp F2       &kp F3           &mt LCTRL F4  &kp F5   &trans            &kp F12  &kp ASTRK  &kp N4  &kp N5  &kp N6  &kp FSLH
+&mt LEFT_SHIFT F6  &kp F7       &kp F8           &kp F9        &kp F10  &kp LEFT_WIN      &trans   &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp DOT
+&trans             &trans       &trans           &trans        &trans   &trans            &trans   &kp N0                             &kp DELETE
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
