@@ -65,7 +65,7 @@
         };
 
         attomark {
-            bindings = <&kp AT>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <7 8>;
         };
 
