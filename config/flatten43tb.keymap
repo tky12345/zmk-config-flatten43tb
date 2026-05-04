@@ -15,8 +15,6 @@
     hold-time-ms = <120>;
 };
 
-ｌ
-
 &mmv {
     delay-ms = <20>;
     trigger-period-ms = <5>;
