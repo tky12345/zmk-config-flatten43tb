@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - A
+  - {t: A, h: LEFT WIN}
   - S
   - D
   - {t: F, h: LCTRL}
@@ -138,23 +138,23 @@ layers:
   - KP 8
   - KP 9
   - +
-  - '['
-  - Sft+'
-  - Sft+(
-  - Sft+)
-  - )
+  - ']'
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
   - /
   - KP 4
   - KP 5
   - KP 6
   - '*'
   - Ctl+Alt+KP 0
-  - _
-  - ']'
-  - Sft+$
-  - Sft+%
-  - Sft+&
-  - ^
+  - {t: ▽, type: trans}
+  - \
+  - '4'
+  - '5'
+  - '6'
+  - '='
   - {t: KP 0, h: LEFT SHIFT}
   - KP 1
   - KP 2
@@ -162,11 +162,11 @@ layers:
   - .
   - '='
   - {t: ▽, type: trans}
-  - '['
-  - Sft+!
-  - Sft+"
-  - Sft+#
-  - \
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - INTERNATIONAL 3
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,7 +175,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - '|'
+  - BSPC
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -311,8 +311,6 @@ layers:
 combos:
 - p: [11, 12]
   k: TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
 - p: [1, 2]
   k: ESCAPE
 - p: [31, 32]
