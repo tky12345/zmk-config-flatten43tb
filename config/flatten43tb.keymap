@@ -49,11 +49,6 @@
             key-positions = <11 12>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         Escape {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
@@ -127,7 +122,7 @@
         default_layer {
             bindings = <
 &lt 6 Q           &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U        &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &mt LCTRL F                &kp G        &kp A                            &kp SEMI         &kp H        &mt RCTRL J  &kp K      &lt 5 L  &lt 4 MINUS
+&mt LEFT_WIN A    &kp S         &kp D         &mt LCTRL F                &kp G        &kp A                            &kp SEMI         &kp H        &mt RCTRL J  &kp K      &lt 5 L  &lt 4 MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &lt 4 LG(LA(K))                  &kp COLON        &kp N        &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_ALT INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 1 INT_HENKAN      &lt 3 BACKSPACE  &lt 1 ENTER                                   &kp BACKSPACE
             >;
@@ -159,10 +154,10 @@
 
         SYMBOL {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp LBKT          &kp LS(SQT)   &kp LS(LPAR)   &kp LS(RPAR)   &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp RBKT          &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(AMPS)   &kp CARET
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp LS(EXCL)  &kp LS(DQT)    &kp LS(POUND)  &kp BSLH
-&kp RIGHT                   &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                        &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &kp RBKT  &kp N7  &kp N8  &kp N9  &trans
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp BSLH  &kp N4  &kp N5  &kp N6  &kp EQUAL
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &trans    &kp N1  &kp N2  &kp N3  &kp INTERNATIONAL_3
+&kp RIGHT                   &trans           &trans           &trans           &trans        &trans                       &trans  &trans                            &kp BSPC
             >;
         };
 
