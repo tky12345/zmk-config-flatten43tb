@@ -47,20 +47,19 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
-            slow-release;
             require-prior-idle-ms = <10>;
-            timeout-ms = <30>;
+            timeout-ms = <40>;
         };
 
         Escape {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
+            timeout-ms = <40>;
         };
 
         ro {
             bindings = <&kp INT_RO>;
             key-positions = <31 32>;
-            slow-release;
             timeout-ms = <50>;
             require-prior-idle-ms = <10>;
         };
@@ -73,13 +72,14 @@
         left_click {
             bindings = <&mkp MB1>;
             key-positions = <19 20>;
-            slow-release;
+            timeout-ms = <40>;
         };
 
         right_click {
             bindings = <&mkp MB2>;
             key-positions = <20 21>;
             slow-release;
+            timeout-ms = <40>;
         };
     };
 
