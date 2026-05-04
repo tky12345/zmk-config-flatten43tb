@@ -75,8 +75,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ']'
+  - '&mkp MB4'
+  - '&mkp MB5'
   - \
   - INT3
   - {t: ▽, type: trans}
@@ -139,9 +139,9 @@ layers:
   - KP 9
   - +
   - ']'
-  - '7'
-  - '8'
-  - '9'
+  - Sft+7
+  - Sft+8
+  - Sft+9
   - {t: ▽, type: trans}
   - /
   - KP 4
@@ -151,9 +151,9 @@ layers:
   - Ctl+Alt+KP 0
   - {t: ▽, type: trans}
   - \
-  - '4'
-  - '5'
-  - '6'
+  - Sft+4
+  - Sft+5
+  - Sft+6
   - '='
   - {t: KP 0, h: LEFT SHIFT}
   - KP 1
@@ -163,9 +163,9 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
+  - Sft+1
+  - Sft+2
+  - Sft+3
   - INTERNATIONAL 3
   - RIGHT
   - {t: ▽, type: trans}
@@ -207,9 +207,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
