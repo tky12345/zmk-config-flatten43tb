@@ -47,6 +47,9 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+            slow-release;
+            require-prior-idle-ms = <10>;
+            timeout-ms = <30>;
         };
 
         Escape {
