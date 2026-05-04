@@ -11,19 +11,19 @@ layers:
   - I
   - O
   - P
-  - {t: LCTRL A, h: J LEFT WIN}
+  - {t: A, h: LEFT WIN}
   - S
   - D
-  - {t: LCTRL F, h: J LCTRL}
+  - {t: F, h: LCTRL}
   - G
   - A
   - ;
   - H
-  - {t: LCTRL J, h: J RCTRL}
+  - {t: J, h: RCTRL}
   - {t: K, h: RIGHT ALT}
   - {t: L, h: SCROLL}
   - {t: '-', h: MOUSE}
-  - {t: LCTRL Z, h: J LEFT SHIFT}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
