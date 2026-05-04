@@ -11,8 +11,9 @@
 
 &mt {
     flavor = "tap-preferred";
-    quick-tap-ms = <0>;
-};
+    quick-tap-ms = <50>;
+    hold-time-ms = <120>;
+};ｌ
 
 &mmv {
     delay-ms = <20>;
