@@ -129,7 +129,7 @@
             label = "J_CTRL";
             tapping-term-ms = <120>;
             hold-trigger-on-release;
-            bindings = <&kp J &kp LCTRL>;
+            bindings = <&kp J>, <&kp LCTRL>;
         };
     };
 
