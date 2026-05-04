@@ -122,13 +122,6 @@
 
             tap-ms = <20>;
         };
-
-        j_ctrl: behavior_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "J_CTRL";
-            tapping-term-ms = <120>;
-            hold-trigger-on-release;
-        };
     };
 
     keymap {
