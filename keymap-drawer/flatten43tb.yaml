@@ -17,7 +17,7 @@ layers:
   - {t: F, h: LCTRL}
   - G
   - A
-  - ''''
+  - ;
   - H
   - {t: J, h: RCTRL}
   - K
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - {t: Gui+Alt+K, h: MOUSE}
-  - ;
+  - ':'
   - N
   - M
   - ','
@@ -41,7 +41,7 @@ layers:
   - {t: INT MUHENKAN, h: LEFT ALT}
   - {t: SPACE, h: FUNC_NUM}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
-  - {t: BACKSPACE, h: NUM}
+  - {t: BACKSPACE, h: SYMBOL}
   - {t: ENTER, h: ARROW}
   - BACKSPACE
   ARROW:
@@ -132,16 +132,16 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - DELETE
-  NUM:
+  SYMBOL:
   - '-'
   - KP 7
   - KP 8
   - KP 9
   - +
-  - ^
-  - '&'
-  - '~'
-  - (
+  - '['
+  - Sft+'
+  - Sft+(
+  - Sft+)
   - )
   - /
   - KP 4
@@ -150,11 +150,11 @@ layers:
   - '*'
   - Ctl+Alt+KP 0
   - _
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - ']'
+  - Sft+$
+  - Sft+%
+  - Sft+&
+  - ^
   - {t: KP 0, h: LEFT SHIFT}
   - KP 1
   - KP 2
@@ -163,11 +163,11 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - '['
-  - ']'
-  - '{'
-  - '}'
+  - Sft+!
+  - Sft+"
+  - Sft+#
   - \
-  - {t: ▽, type: trans}
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
