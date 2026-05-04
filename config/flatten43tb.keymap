@@ -130,8 +130,8 @@
         default_layer {
             bindings = <
 &lt 6 Q           &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U        &kp I            &kp O    &kp P
-&mt LEFT_WIN A    &kp S         &kp D         &mt LCTRL F                &kp G        &kp A                            &kp SEMI         &kp H        &mt RCTRL J  &mt RIGHT_ALT K  &lt 5 L  &lt 4 MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &lt 4 LG(LA(K))                  &kp COLON        &kp N        &kp M        &kp COMMA        &kp DOT  &mt RIGHT_SHIFT SLASH
+&mt LEFT_WIN A    &kp S         &kp D         &mt LCTRL F                &kp G        &kp A                            &kp SEMI         &kp H        &mt RCTRL J  &mt RIGHT_ALT K  &lt 4 L  &lt 5 MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B        &lt 4 LG(LA(K))                  &kp APOS         &kp N        &kp M        &kp COMMA        &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_ALT INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 1 INT_HENKAN      &lt 3 BACKSPACE  &lt 1 ENTER                                         &kp BACKSPACE
             >;
 
@@ -180,10 +180,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
