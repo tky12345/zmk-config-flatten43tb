@@ -143,7 +143,7 @@
             bindings = <
 &kp ESCAPE  &trans  &trans  &trans  &trans                      &kp HOME  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN  &trans
 &trans      &trans  &trans  &trans  &trans  &trans      &trans  &kp END   &kp LEFT     &kp DOWN_ARROW  &kp RIGHT      &kp EQUAL
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans    &trans       &kp RBKT        &kp BSLH       &kp INT3
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans    &mkp MB4     &mkp MB5        &kp BSLH       &kp INT3
 &trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                &kp DELETE
             >;
 
@@ -163,10 +163,10 @@
 
         SYMBOL {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &kp RBKT  &kp N7  &kp N8  &kp N9  &trans
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp BSLH  &kp N4  &kp N5  &kp N6  &kp EQUAL
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &trans    &kp N1  &kp N2  &kp N3  &kp INTERNATIONAL_3
-&kp RIGHT                   &trans           &trans           &trans           &trans        &trans                       &trans  &trans                            &kp BSPC
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &kp RBKT  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp BSLH  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp EQUAL
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &trans    &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp INTERNATIONAL_3
+&kp RIGHT                   &trans           &trans           &trans           &trans        &trans                       &trans  &trans                                        &kp BSPC
             >;
         };
 
@@ -174,7 +174,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &mkp MB4  &mkp MB5  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
