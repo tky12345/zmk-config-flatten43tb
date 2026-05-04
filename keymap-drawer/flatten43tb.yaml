@@ -20,7 +20,7 @@ layers:
   - ;
   - H
   - {t: J, h: RCTRL}
-  - K
+  - {t: K, h: RIGHT ALT}
   - {t: L, h: SCROLL}
   - {t: '-', h: MOUSE}
   - {t: Z, h: LEFT SHIFT}
