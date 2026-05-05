@@ -37,7 +37,7 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT WIN
-  - '&ht_alt_layer 5 TAB'
+  - {t: TAB, h: SCROLL}
   - {t: INT MUHENKAN, h: LEFT ALT}
   - {t: SPACE, h: FUNC_NUM}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
