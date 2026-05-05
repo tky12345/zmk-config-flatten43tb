@@ -122,6 +122,19 @@
 
             tap-ms = <20>;
         };
+
+        alt_layer_hold: behavior_custom {
+            compatible = "zmk,behavior-custom";
+            label = "ALT_LAYER_HOLD";
+
+            #binding-cells = <0>;
+
+            bindings = <
+                &kp LALT      // press: Alt down
+                &mo 5         // press: switch to layer 1
+                &kp LALT      // release: Alt up
+            >;
+        };
     };
 
     keymap {
@@ -181,7 +194,7 @@
         SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &kp TAB  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
