@@ -37,8 +37,8 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT WIN
-  - {t: TAB, h: SCROLL}
-  - {t: INT MUHENKAN, h: LEFT ALT}
+  - LEFT ALT
+  - {t: INT MUHENKAN, h: SCROLL}
   - {t: SPACE, h: FUNC_NUM}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
   - {t: BACKSPACE, h: SYMBOL}
@@ -232,7 +232,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
