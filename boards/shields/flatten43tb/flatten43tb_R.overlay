@@ -45,7 +45,7 @@
             tapping-term-ms = <120>;
             quick-tap-ms = <0>;
 
-            bindings = <&kp TAB>, <&kp LALT &mo 5>;
+            bindings = <&kp TAB>, <&kp LALT>;
         };
     };
 };
