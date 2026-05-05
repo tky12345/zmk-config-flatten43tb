@@ -122,6 +122,20 @@
 
             tap-ms = <20>;
         };
+
+        ht_alt_layer: ht_alt_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_ALT_LAYER";
+            #binding-cells = <2>;
+            
+            // パラメータ設定
+            tapping-term-ms = <200>;    // 120よりは少し余裕を持たせるのが一般的
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";   // タップを優先する設定（誤爆防止）
+
+            // 1つ目が長押し(Hold)、2つ目がタップ(Tap)
+            bindings = <&mo>, <&kp>;
+        };
     };
 
     keymap {
