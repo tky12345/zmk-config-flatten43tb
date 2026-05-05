@@ -37,8 +37,8 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT WIN
-  - LEFT ALT
-  - '&alt_layer_hold INT_MUHENKAN'
+  - '&alt_layer_hold'
+  - {t: INT MUHENKAN, h: LEFT ALT}
   - {t: SPACE, h: FUNC_NUM}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
   - {t: BACKSPACE, h: SYMBOL}
