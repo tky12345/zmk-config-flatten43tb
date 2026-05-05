@@ -20,13 +20,13 @@ layers:
   - ;
   - H
   - {t: J, h: RCTRL}
-  - {t: K, h: RIGHT ALT}
-  - {t: L, h: MOUSE}
-  - {t: '-', h: SCROLL}
+  - K
+  - {t: L, h: RIGHT ALT}
+  - {t: '-', h: MOUSE}
   - {t: Z, h: LEFT SHIFT}
   - X
-  - C
-  - V
+  - {t: C, h: SCROLL}
+  - {t: V, h: MOUSE}
   - B
   - {t: Gui+Alt+K, h: MOUSE}
   - ''''
@@ -197,8 +197,8 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB3'
-  - {t: '&mkp MB2', type: held}
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -242,10 +242,10 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
