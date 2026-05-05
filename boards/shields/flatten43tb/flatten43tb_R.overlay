@@ -35,6 +35,21 @@
     };
 };
 
+/ {
+    behaviors {
+        ht_alt_layer: ht_alt_layer {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_ALT_LAYER";
+            #binding-cells = <2>;
+
+            tapping-term-ms = <120>;
+            quick-tap-ms = <0>;
+
+            bindings = <&kp TAB>, <&kp LALT &mo 5>;
+        };
+    };
+};
+
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
