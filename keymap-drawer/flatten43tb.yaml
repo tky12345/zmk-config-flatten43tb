@@ -21,8 +21,8 @@ layers:
   - H
   - {t: J, h: RCTRL}
   - K
-  - {t: L, h: RIGHT ALT}
-  - {t: '-', h: MOUSE}
+  - {t: L, h: SCROLL}
+  - {t: '-', h: RIGHT ALT}
   - {t: Z, h: LEFT SHIFT}
   - X
   - {t: C, h: SCROLL}
@@ -198,11 +198,11 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -241,11 +241,11 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB3'
-  - '&mkp MB2'
+  - {t: '&mkp MB2', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
