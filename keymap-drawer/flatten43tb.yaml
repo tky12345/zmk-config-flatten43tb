@@ -37,7 +37,7 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - LCTRL
   - LEFT WIN
-  - LEFT ALT
+  - '&alt_layer_on'
   - {t: INT MUHENKAN, h: '&alt_layer_on 5'}
   - {t: SPACE, h: FUNC_NUM}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
