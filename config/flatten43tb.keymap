@@ -98,7 +98,7 @@
             label = "MIC_MUTE";
         };
 
-        l// Altとレイヤー5を同時に押し下げるマクロ
+        // Altとレイヤー5を同時に押し下げるマクロ
         alt_layer_on: alt_layer_on {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
