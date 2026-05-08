@@ -49,6 +49,7 @@
             key-positions = <11 12>;
             require-prior-idle-ms = <10>;
             timeout-ms = <40>;
+            slow-release;
         };
 
         Escape {
@@ -62,6 +63,7 @@
             key-positions = <31 32>;
             timeout-ms = <50>;
             require-prior-idle-ms = <10>;
+            slow-release;
         };
 
         attomark {
@@ -73,6 +75,7 @@
             bindings = <&mkp MB1>;
             key-positions = <19 20>;
             timeout-ms = <40>;
+            slow-release;
         };
 
         right_click {
@@ -80,6 +83,18 @@
             key-positions = <20 21>;
             slow-release;
             timeout-ms = <40>;
+        };
+
+        f {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <7 19>;
+            slow-release;
+        };
+
+        g {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <8 20>;
+            slow-release;
         };
     };
 
@@ -209,10 +224,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans   &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &kp TAB  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans   &trans  &trans        &trans                            &trans  &trans  &trans  &trans  &trans
+&trans  &kp TAB  &trans  &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans  &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &trans  &kp LEFT_ALT  &kp LEFT_ALT  &trans      &trans  &trans                          &trans
             >;
         };
 
