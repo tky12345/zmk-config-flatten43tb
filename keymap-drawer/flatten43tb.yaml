@@ -118,11 +118,11 @@ layers:
   - F10
   - LEFT WIN
   - {t: ▽, type: trans}
-  - KP EQUAL
+  - Sft+-
   - '1'
   - '2'
   - '3'
-  - .
+  - {t: ., h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
