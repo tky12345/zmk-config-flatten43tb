@@ -105,7 +105,7 @@ layers:
   - {t: F4, h: LCTRL}
   - F5
   - {t: ▽, type: trans}
-  - F12
+  - {t: ▽, type: trans}
   - KP ASTERISK
   - {t: '4', h: RCTRL}
   - '5'
