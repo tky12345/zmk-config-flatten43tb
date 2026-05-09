@@ -45,11 +45,11 @@ layers:
   - {t: ENTER, h: ARROW}
   - BACKSPACE
   ARROW:
-  - ESCAPE
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ']'
+  - \
   - HOME
   - PAGE UP
   - UP ARROW
@@ -58,8 +58,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ;
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - END
