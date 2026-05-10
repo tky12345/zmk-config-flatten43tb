@@ -74,9 +74,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - ;
+  - ''''
+  - ']'
   - \
   - INT3
   - {t: ▽, type: trans}
