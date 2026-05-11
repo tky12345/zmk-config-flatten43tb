@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LEFT WIN}
+  - {t: LCTRL A, h: a LEFT WIN}
   - S
   - D
   - {t: F, h: LCTRL}
