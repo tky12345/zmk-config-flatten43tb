@@ -173,9 +173,6 @@
             tapping-term-ms = <120>;
             hold-trigger-on-release;
             quick-tap-ms = <80>;
-
-            /
-
             require-prior-idle-ms = <30>;
             slow-release;
             bindings = <&kp a &kp LCTRL>;
