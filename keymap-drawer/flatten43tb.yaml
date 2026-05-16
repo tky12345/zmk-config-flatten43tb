@@ -144,7 +144,7 @@ layers:
   - '9'
   - '-'
   - {t: ▽, type: trans}
-  - {t: TAB, h: '&alt_tab'}
+  - '&alt_tab'
   - {t: ▽, type: trans}
   - {t: F4, h: LCTRL}
   - F5
