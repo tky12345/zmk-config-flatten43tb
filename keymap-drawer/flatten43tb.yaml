@@ -131,7 +131,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: INT HENKAN, h: ARROW}
-  - DELETE
+  - BACKSPACE
   NUMBER:
   - F11
   - F12
@@ -175,7 +175,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: '0', h: ARROW}
-  - DELETE
+  - BACKSPACE
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
