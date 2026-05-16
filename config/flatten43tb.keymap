@@ -128,11 +128,11 @@
                 <&kp LALT &tog 5>;
         };
 
-        alt_tab: alt_tab {
+        macro_alt_tab: macro_alt_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LG(LALT) &kp TAB>;
-            label = "ALT_TAB";
+            label = "MACRO_ALT_TAB";
         };
     };
 
@@ -162,16 +162,16 @@
 
         // 親指用：ホールドで上記マクロ（Alt押し+Layer5）、タップでTAB
 
-        ht_alt_tab: ht_alt_tab {
+        alt_tab_hold: alt_tab_hold {
             compatible = "zmk,behavior-hold-tap";
-            label = "HT_ALT_TAB";
+            label = "ALT_TAB_HOLD";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             flavor = "hold-preferred";
 
             // 1つ目(Hold)にマクロ、2つ目(Tap)に通常のキー
 
-            bindings = <&alt_tab>, <&kp>;
+            bindings = <&macro_alt_tab>, <&kp>;
         };
 
         a_win: a_win {
@@ -226,10 +226,10 @@
 
         NUMBER {
             bindings = <
-&kp F11            &kp F12   &trans  &trans        &trans                             &kp KP_PLUS      &kp N7              &kp N8  &kp N9  &kp MINUS
-&trans             &alt_tab  &trans  &mt LCTRL F4  &kp F5   &trans            &trans  &kp KP_ASTERISK  &mt RCTRL NUMBER_4  &kp N5  &kp N6  &kp FSLH
-&mt LEFT_SHIFT F6  &kp F7    &kp F8  &kp F9        &kp F10  &kp LEFT_WIN      &trans  &kp LS(MINUS)    &kp N1              &kp N2  &kp N3  &mt RIGHT_SHIFT DOT
-&trans             &trans    &trans  &trans        &trans   &trans            &trans  &lt 1 N0                                             &kp BACKSPACE
+&kp F11            &kp F12              &trans  &trans        &trans                             &kp KP_PLUS      &kp N7              &kp N8  &kp N9  &kp MINUS
+&trans             &alt_tab_hold 0 TAB  &trans  &mt LCTRL F4  &kp F5   &trans            &trans  &kp KP_ASTERISK  &mt RCTRL NUMBER_4  &kp N5  &kp N6  &kp FSLH
+&mt LEFT_SHIFT F6  &kp F7               &kp F8  &kp F9        &kp F10  &kp LEFT_WIN      &trans  &kp LS(MINUS)    &kp N1              &kp N2  &kp N3  &mt RIGHT_SHIFT DOT
+&trans             &trans               &trans  &trans        &trans   &trans            &trans  &lt 1 N0                                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
