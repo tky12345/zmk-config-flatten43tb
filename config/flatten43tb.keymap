@@ -96,6 +96,12 @@
             key-positions = <8 20>;
             slow-release;
         };
+
+        tab_alt {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <11 12>;
+            layers = <2>;
+        };
     };
 
     macros {
@@ -193,10 +199,10 @@
 
         default_layer {
             bindings = <
-&lt 6 Q            &kp W         &kp E         &kp R               &kp T                                                          &kp Y        &kp U        &kp I      &kp O    &kp P
-&a_win LEFT_WIN A  &kp S         &kp D         &mt LCTRL F         &kp G        &kp A                            &kp SEMI         &kp H        &mt RCTRL J  &kp K      &lt 5 L  &mt RIGHT_ALT MINUS
-&mt LEFT_SHIFT Z   &kp X         &lt 5 C       &lt 4 V             &kp B        &lt 4 LG(LA(K))                  &kp APOS         &kp N        &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL          &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 1 INT_HENKAN      &lt 3 BACKSPACE  &lt 1 ENTER                                   &kp BACKSPACE
+&lt 6 Q            &kp W         &kp E         &kp R                      &kp T                                                          &kp Y        &kp U        &kp I      &kp O    &kp P
+&a_win LEFT_WIN A  &kp S         &kp D         &mt LCTRL F                &kp G        &kp A                            &kp SEMI         &kp H        &mt RCTRL J  &kp K      &lt 5 L  &mt RIGHT_ALT MINUS
+&mt LEFT_SHIFT Z   &kp X         &lt 5 C       &lt 4 V                    &kp B        &lt 4 LG(LA(K))                  &kp APOS         &kp N        &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL          &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_ALT INT_MUHENKAN  &lt 2 SPACE  &lt_to_layer_0 1 INT_HENKAN      &lt 3 BACKSPACE  &lt 1 ENTER                                   &kp BACKSPACE
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOL_UP C_VOL_DN>;
@@ -204,10 +210,10 @@
 
         ARROW {
             bindings = <
-&kp GRAVE  &trans  &trans  &trans  &trans                                &kp HOME  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN  &trans
-&trans     &trans  &trans  &trans  &trans            &trans      &trans  &kp END   &kp LEFT     &kp DOWN_ARROW  &kp RIGHT      &kp EQUAL
-&trans     &trans  &trans  &trans  &trans            &trans      &trans  &kp SEMI  &kp APOS     &kp RBKT        &kp BSLH       &kp INT3
-&trans     &trans  &trans  &trans  &kp INT_MUHENKAN  &trans      &trans  &trans                                                &kp DELETE
+&kp GRAVE  &trans  &trans  &trans  &trans                      &kp HOME  &kp PAGE_UP  &kp UP_ARROW    &kp PAGE_DOWN  &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &kp END   &kp LEFT     &kp DOWN_ARROW  &kp RIGHT      &kp EQUAL
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &kp SEMI  &kp APOS     &kp RBKT        &kp BSLH       &kp INT3
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
@@ -215,10 +221,10 @@
 
         FUNC {
             bindings = <
-&kp F11            &kp F12  &trans  &trans        &trans                             &kp KP_PLUS       &kp N7              &kp N8  &kp N9  &kp MINUS
-&kp F1             &kp F2   &kp F3  &mt LCTRL F4  &kp F5   &trans            &trans  &kp KP_ASTERISK   &mt RCTRL NUMBER_4  &kp N5  &kp N6  &kp FSLH
-&mt LEFT_SHIFT F6  &kp F7   &kp F8  &kp F9        &kp F10  &kp LEFT_WIN      &trans  &kp LS(MINUS)     &kp N1              &kp N2  &kp N3  &mt RIGHT_SHIFT DOT
-&trans             &trans   &trans  &trans        &trans   &trans            &trans  &lt 1 INT_HENKAN                                      &kp BACKSPACE
+&kp F11            &kp F12  &trans  &trans        &trans                             &kp KP_PLUS      &kp N7              &kp N8  &kp N9  &kp MINUS
+&kp F1             &kp F2   &kp F3  &mt LCTRL F4  &kp F5   &trans            &trans  &kp KP_ASTERISK  &mt RCTRL NUMBER_4  &kp N5  &kp N6  &kp FSLH
+&mt LEFT_SHIFT F6  &kp F7   &kp F8  &kp F9        &kp F10  &kp LEFT_WIN      &trans  &kp LS(MINUS)    &kp N1              &kp N2  &kp N3  &mt RIGHT_SHIFT DOT
+&trans             &trans   &trans  &trans        &trans   &trans            &trans  &lt 1 N0                                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
