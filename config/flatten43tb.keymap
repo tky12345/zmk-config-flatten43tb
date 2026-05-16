@@ -219,11 +219,13 @@
 
         SYMBOL {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &kp RBKT  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp BSLH  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp EQUAL
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &trans    &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp INTERNATIONAL_3
-&kp RIGHT                   &trans           &trans           &trans           &trans        &trans                       &trans  &trans                                        &kp BSPC
+&kp F11            &kp F12  &trans  &trans        &trans                             &kp KP_PLUS      &kp N7              &kp N8  &kp N9  &kp MINUS
+&kp F1             &kp F2   &kp F3  &mt LCTRL F4  &kp F5   &trans            &trans  &kp KP_ASTERISK  &mt RCTRL NUMBER_4  &kp N5  &kp N6  &kp FSLH
+&mt LEFT_SHIFT F6  &kp F7   &kp F8  &kp F9        &kp F10  &kp LEFT_WIN      &trans  &kp LS(MINUS)    &kp N1              &kp N2  &kp N3  &mt RIGHT_SHIFT DOT
+&trans             &trans   &trans  &trans        &trans   &trans            &trans  &lt 1 N0                                             &kp DELETE
             >;
+
+            sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         MOUSE {
