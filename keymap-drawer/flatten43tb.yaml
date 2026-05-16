@@ -38,18 +38,18 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT MUHENKAN, h: LEFT ALT}
-  - {t: SPACE, h: FUNC_NUM}
+  - {t: INT MUHENKAN, h: NUMBER}
+  - {t: SPACE, h: FUNC}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
-  - {t: BACKSPACE, h: SYMBOL}
+  - {t: BACKSPACE, h: NUMBER}
   - {t: ENTER, h: ARROW}
   - BACKSPACE
   ARROW:
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ']'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - HOME
   - PAGE UP
   - UP ARROW
@@ -58,8 +58,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ;
-  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - END
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
-  FUNC_NUM:
+  FUNC:
   - F11
   - F12
   - {t: ▽, type: trans}
@@ -130,9 +130,9 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '0', h: ARROW}
+  - {t: INT HENKAN, h: ARROW}
   - DELETE
-  SYMBOL:
+  NUMBER:
   - F11
   - F12
   - {t: ▽, type: trans}
@@ -143,9 +143,9 @@ layers:
   - '8'
   - '9'
   - '-'
-  - F1
-  - F2
-  - F3
+  - {t: ▽, type: trans}
+  - Alt+TAB
+  - {t: ▽, type: trans}
   - {t: F4, h: LCTRL}
   - F5
   - {t: ▽, type: trans}
@@ -170,10 +170,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: '0', h: ARROW}
   - DELETE
   MOUSE:
