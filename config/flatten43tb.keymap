@@ -131,7 +131,7 @@
         alt_tab: alt_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LG(LALT) &kp TAB>;
             label = "ALT_TAB";
         };
     };
@@ -171,7 +171,7 @@
 
             // 1つ目(Hold)にマクロ、2つ目(Tap)に通常のキー
 
-            bindings = <&alt_layer_on>, <&kp>;
+            bindings = <&alt_tab>, <&kp>;
         };
 
         a_win: a_win {
