@@ -131,7 +131,7 @@
         macro_alt_tab: macro_alt_tab {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(LALT) &kp TAB>;
+            bindings = <&kp LALT &kp TAB>;
             label = "MACRO_ALT_TAB";
         };
     };
