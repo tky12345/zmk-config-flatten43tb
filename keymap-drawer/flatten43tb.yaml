@@ -133,49 +133,49 @@ layers:
   - {t: '0', h: ARROW}
   - DELETE
   SYMBOL:
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP PLUS
+  - '7'
+  - '8'
+  - '9'
   - '-'
-  - KP 7
-  - KP 8
-  - KP 9
-  - +
-  - ']'
-  - Sft+7
-  - Sft+8
-  - Sft+9
+  - F1
+  - F2
+  - F3
+  - {t: F4, h: LCTRL}
+  - F5
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP ASTERISK
+  - {t: '4', h: RCTRL}
+  - '5'
+  - '6'
   - /
-  - KP 4
-  - KP 5
-  - KP 6
-  - '*'
-  - Ctl+Alt+KP 0
+  - {t: F6, h: LEFT SHIFT}
+  - F7
+  - F8
+  - F9
+  - F10
+  - LEFT WIN
   - {t: ▽, type: trans}
-  - \
-  - Sft+4
-  - Sft+5
-  - Sft+6
-  - '='
-  - {t: KP 0, h: LEFT SHIFT}
-  - KP 1
-  - KP 2
-  - KP 3
-  - .
-  - '='
+  - Sft+-
+  - '1'
+  - '2'
+  - '3'
+  - {t: ., h: RIGHT SHIFT}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+1
-  - Sft+2
-  - Sft+3
-  - INTERNATIONAL 3
-  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - BSPC
+  - {t: '0', h: ARROW}
+  - DELETE
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
