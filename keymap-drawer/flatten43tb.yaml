@@ -38,7 +38,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT MUHENKAN, h: NUMBER}
+  - {t: INT MUHENKAN, h: LEFT ALT}
   - {t: SPACE, h: FUNC}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
   - {t: BACKSPACE, h: NUMBER}
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INT MUHENKAN
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: INT HENKAN, h: ARROW}
+  - {t: '0', h: ARROW}
   - BACKSPACE
   NUMBER:
   - F11
@@ -170,10 +170,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: '0', h: ARROW}
   - BACKSPACE
   MOUSE:
@@ -325,3 +325,6 @@ combos:
   k: ']'
 - p: [8, 20]
   k: \
+- p: [11, 12]
+  k: Alt+TAB
+  l: [FUNC]
