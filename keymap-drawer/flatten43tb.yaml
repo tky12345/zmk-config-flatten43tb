@@ -315,16 +315,14 @@ combos:
   k: ESCAPE
 - p: [31, 32]
   k: INT RO
-- p: [7, 8]
-  k: '['
 - p: [19, 20]
   k: '&mkp MB1'
 - p: [20, 21]
   k: '&mkp MB2'
-- p: [7, 19]
-  k: ']'
-- p: [8, 20]
-  k: \
 - p: [11, 12]
   k: Alt+TAB
   l: [FUNC]
+- p: [18, 19]
+  k: INT HENKAN
+- p: [13, 12]
+  k: INT MUHENKAN
