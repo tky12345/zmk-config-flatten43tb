@@ -90,6 +90,11 @@
             bindings = <&kp INT_HENKAN>;
             key-positions = <18 19>;
         };
+
+        muhenkan {
+            bindings = <&kp INT_MUHENKAN>;
+            key-positions = <13 12>;
+        };
     };
 
     macros {
