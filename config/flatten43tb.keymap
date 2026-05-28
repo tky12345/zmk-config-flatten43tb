@@ -95,6 +95,11 @@
             bindings = <&kp INT_MUHENKAN>;
             key-positions = <13 12>;
         };
+
+        at {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
