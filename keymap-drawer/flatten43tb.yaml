@@ -38,7 +38,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: INT MUHENKAN, h: MOUSE}
+  - {t: INT MUHENKAN, h: '&alt_layer_on'}
   - {t: SPACE, h: FUNC}
   - {t: '&to_layer_0 INT_HENKAN', h: ARROW}
   - {t: BACKSPACE, h: NUMBER}
